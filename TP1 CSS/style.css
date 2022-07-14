@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(37, 37, 37);
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+/* ----------------------------nav------------------------ */
+nav {
+  /* border: 2px solid white; */
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+h2 {
+  margin: 20px 20px;
+  font-size: 1.2rem;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+li {
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 10px;
+  margin-left: 0;
+}
+
+/* ----------------------------------centre du site------------------------------- */
+
+.header {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.header-left {
+  /* border: 2px solid white; */
+}
+
+.header-left-container {
+  margin: 200px 20px 200px 20px;
+}
+
+h1 {
+  display: flex;
+  font-size: 2.5rem;
+  margin-bottom: -10px;
+}
+
+.header-left-container h3 {
+  color: rgb(79, 79, 253);
+}
+
+p {
+  margin-top: -5px;
+  font-size: 0.7rem;
+  text-align: left;
+}
+
+.header-right {
+  /* border: 2px solid white; */
+}
+
+.header-right img {
+  display: flex;
+  height: 500px;
+  width: 500px;
+  margin: 20px auto;
+}
+
+/* ---------------------------------info du bas--------------------------- */
+
+.infos {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  /* border: 2px solid black; */
+  margin: 10px;
+  border-radius: 10px;
+  background-color: rgb(16, 16, 16);
+}
+
+/* ----------------------------------------info de gauche------------------------------------ */
+
+.infos-left {
+  position: flex;
+}
+
+.infos-left h3 {
+  font-size: 0.8rem;
+  padding-left: 10px;
+}
+
+.btn-container {
+  /* display: block; */
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background: rgb(79, 79, 253);
+  border-radius: 10px;
+  padding: 10px;
+  width: 115px;
+  height: 35px;
+  font-size: 0.7rem;
+  margin: 10px;
+  border-style: none;
+}
+/* --------------------------------------infos de droite--------------------------------------- */
+
+.infos-right {
+  position: relative;
+  display: inline-block;
+  /* border: 2px solid white; */
+}
+
+.infos-right h3 {
+  margin-top: 0;
+  font-size: 0.8rem;
+  padding: 5px;
+}
+
+.img-container {
+  /* position:S relative; */
+}
+
+.img-container img {
+  height: 40px;
+  padding-right: 90px;
+  padding-left: 85px;
+  margin-top: 30px;
+}

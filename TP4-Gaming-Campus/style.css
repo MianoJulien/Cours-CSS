@@ -1,0 +1,400 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+nav {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+}
+
+nav ul li {
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 20px;
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  color: rgb(170, 60, 255);
+  border-top: 5px solid rgb(170, 60, 255);
+}
+
+nav ul li:nth-child(8):hover {
+  color: rgb(170, 60, 255);
+  border-top: none;
+}
+
+#language {
+  background: rgb(216, 216, 216);
+  border-radius: 30px;
+  height: 3px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+header {
+  background: url(./assets/img/bg.jpg) center/cover fixed;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#logo {
+  margin: 20px 0;
+}
+
+.main-header h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+.main-header button {
+  margin: 20px 0;
+  height: 60px;
+  width: 350px;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  background: rgba(232, 232, 232, 0.059);
+  border-style: none;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+.main-header button:hover {
+  background: rgba(125, 125, 125, 0.745);
+}
+
+.header-text {
+  height: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.header-text p {
+  font-weight: bold;
+  width: 950px;
+}
+
+.icon-part {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: white;
+  background: black;
+}
+
+.icon-part-container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.list-icon-part {
+  margin: 0 30px;
+  width: 330px;
+}
+
+.lip-logo {
+  padding: 20px;
+}
+
+.list-icon-part h3 {
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+.list-icon-part p {
+  padding: 20px;
+}
+
+.list-icon-part button {
+  width: 200px;
+  height: 40px;
+  text-transform: uppercase;
+  background: rgba(0, 0, 0, 0.158);
+  color: white;
+  border: 2px solid white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.list-icon-part button:hover {
+  background: rgb(255, 255, 255);
+  color: blue;
+}
+
+.news-part {
+  height: 900px;
+  width: 100%;
+  background: rgb(237, 237, 237);
+  position: relative;
+}
+
+.header-news {
+  display: grid;
+  grid-template-columns: 65% 35%;
+  height: 300px;
+  padding: 150px 0 30px 150px;
+}
+
+.left-part h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.left-part p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.right-part button {
+  height: 60px;
+  width: 250px;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: rgba(230, 230, 230, 0.059);
+  border-style: none;
+  border: 1px solid black;
+  color: black;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+.right-part button:hover {
+  color: white;
+  background: rgb(170, 60, 255);
+}
+
+.main-news-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-news-container div {
+  width: 253px;
+}
+
+.main-news-container h4 {
+  margin: 10px 0;
+}
+
+.main-news-container p {
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.link {
+  margin-top: 50px;
+}
+
+.link a {
+  text-decoration: none;
+  color: rgb(170, 60, 255);
+  text-transform: uppercase;
+  margin-right: 5px;
+  position: absolute;
+  bottom: 150px;
+}
+
+.contact {
+  height: 600px;
+  font-weight: bold;
+}
+
+.contact-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list {
+  width: 220px;
+  height: 250px;
+  margin: 50px;
+}
+
+.list h5 {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+h6 {
+  margin-top: 10px;
+}
+
+.network {
+  margin-top: 10px;
+}
+
+.footer-logos {
+  padding-bottom: 10px;
+}
+
+.footer-logos i {
+  margin-right: 20px;
+}
+
+.contact-list li {
+  padding-top: 10px;
+}
+
+.contact-list a {
+  text-decoration: none;
+  color: rgb(130, 0, 229);
+}
+hr {
+  width: 1350px;
+  margin: auto;
+}
+.contact-medias {
+  height: 150px;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.medias-text {
+  margin: auto;
+}
+.medias-text h3 {
+  text-transform: uppercase;
+  padding: 20px 0;
+}
+
+.medias-logos {
+  margin: auto;
+  word-spacing: 40px;
+}
+
+footer {
+  height: 150px;
+  background: rgb(48, 48, 48);
+}
+
+footer h3 {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  padding: 20px;
+  color: white;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+footer li {
+  margin: 0 10px;
+}
+
+@media screen and (max-width: 1215px) {
+  body {
+    width: auto;
+  }
+
+  nav {
+    height: 0;
+    visibility: hidden;
+  }
+
+  header h1 {
+    font-size: 1.2rem;
+    display: block;
+  }
+
+  #logo img {
+    height: 180px;
+  }
+  .icon-part {
+    height: 1300px;
+  }
+  .icon-part-container {
+    flex-direction: column;
+  }
+  .header-news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    height: 200px;
+  }
+
+  .right-part {
+    margin-top: 20px;
+  }
+
+  .left-part {
+    margin-top: 40px;
+  }
+
+  .main-news-container {
+    display: block;
+  }
+  .news-part {
+    height: 1800px;
+  }
+
+  .main-news-container div {
+    display: block;
+    margin: 50px auto;
+    position: relative;
+  }
+
+  .link a {
+    position: absolute;
+    bottom: 20px;
+  }
+  .contact {
+    visibility: hidden;
+    height: 0px;
+  }
+  footer img {
+    height: 8px;
+  }
+  footer li {
+    margin: 5px;
+  }
+  footer h3 {
+    font-size: 0.9rem;
+  }
+}
